@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET SPV page. */
 router.get('/spv', function(req, res, next) {
-    res.render('index', { title: 'DIAMCO' });
+    res.render('spv', { title: 'DIAMCO' });
 });
 
 /* GET Investor page. */
