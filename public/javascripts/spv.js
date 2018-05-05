@@ -1,6 +1,11 @@
 $.when( $.ready ).then(function() {
-    var button = $("#create-auction");
-    button.click(function() {
+    var create = $("#create-auction");
+    create.click(function() {
         window.location.href = "/spv-set-diamonds";
+    });
+
+    var view = $("#view-auctions");
+    view.click(function() {
+        window.location.href = "/spv-view-auctions";
     });
 });
