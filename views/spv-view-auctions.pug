@@ -1,0 +1,14 @@
+extends layout
+
+block append head
+  script(src='/javascripts/spv-view-auctions.js')
+
+block content
+  h1= title
+  p Here are the list of all auctions
+
+  include partial/auction-table
+
+
+  button#set-number-of-days Continue with 50 days
+
