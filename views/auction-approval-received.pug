@@ -7,25 +7,24 @@ block content
                 | Auctions
                 span.arrow
         p.text-list Live Auction List
-        .one-block.orange-border
+        .one-block
             ul
-                li
-                    | Status
-                    span.orange In Production
                 li
                     | Auction ID
                     span 000001
                 li
                     | Closing Date
-                    span.red 09/06/2018
+                    span.green 09/06/2018
                 li
                     | # of Investors
                     span 23
                 li
                     | Total Collected
-                    span.orange 200,000$
-            p.waiting.orange Waiting for notification
-        .one-block.purple-border
+                    span.blue 200,000$
+            p.approval Approval received
+            // или ссылкой или спаном можно
+            span.butt-start VIEW WALLET
+        .one-block
             .logo
                 .for-flex
                     img.img-responsive(src='img/logo_white.svg', alt='')
@@ -35,7 +34,7 @@ block content
                     span 000001
                 li
                     | Closing Date
-                    span.red 09/06/2018
+                    span.green 09/06/2018
                 li
                     | # of Investors
                     span 23
@@ -44,7 +43,3 @@ block content
                     span.blue 200,000$
             // или ссылкой или спаном можно
             span.butt-start START
-    script.
-        setTimeout(function () {
-          window.location.href='/auction-approval-received'
-        }, 5000);
