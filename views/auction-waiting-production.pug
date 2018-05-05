@@ -7,25 +7,24 @@ block content
                 | Auctions
                 span.arrow
         p.text-list Live Auction List
-        .one-block.green-border
+        .one-block.orange-border
             ul
                 li
                     | Status
-                    span.d-green Ready
+                    span.orange In Production
                 li
                     | Auction ID
                     span 000001
                 li
                     | Closing Date
-                    span.d-green 09/06/2018
+                    span.red 09/06/2018
                 li
                     | # of Investors
                     span 23
                 li
                     | Total Collected
-                    span.blue 200,000$
-            p.waiting.d-green 1000 / 1000 DIAMs received
-            span.butt-start(data-toggle="modal" data-target="#modal-1") LAUNCH
+                    span.orange 200,000$
+            p.waiting.orange Waiting for notification
         .one-block.purple-border
             .logo
                 .for-flex
@@ -45,14 +44,3 @@ block content
                     span.blue 200,000$
             // или ссылкой или спаном можно
             span.butt-start START
-
-block modal
-    #modal-1.modal.modal-sec
-        .modal-dialog
-            .modal-contant
-                .modal-body
-                    .logo
-                        .for-flex
-                            img.img-responsive(src='img/logo_white.svg', alt='')
-                    p.launched LAUNCHED!
-                    button(onclick="window.location.href='/auction-waiting-production'") Continue
