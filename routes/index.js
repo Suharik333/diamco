@@ -21,6 +21,11 @@ router.get('/spv-set-days', function(req, res, next) {
     res.render('spv-set-days', { title: 'DIAMCO' });
 });
 
+/* GET SPV page. */
+router.get('/spv-view-auctions', function(req, res, next) {
+    res.render('spv-view-auctions', { title: 'DIAMCO' });
+});
+
 /* GET Investor page. */
 router.get('/investor', function(req, res, next) {
     res.render('investor', { title: 'DIAMCO' });
