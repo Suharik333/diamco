@@ -1,48 +1,49 @@
 extends layout
 
 block content
-  .blocks.auctions-page
-    .flex-arrow
-      h6
-        | Auctions
-        span.arrow
-    p.text-list Live Auction List
-    .one-block
-      .logo
-        .for-flex
-          img.img-responsive(src='img/logo_white.svg', alt='')
-      ul
-        li
-          | Auction ID
-          span 000001
-        li
-          | Closing Date
-          span.green 09/06/2018
-        li
-          | # of Investors
-          span 23
-        li
-          | Total Collected
-          span.blue 200,000$
-      // или ссылкой или спаном можно
-      span.butt-start START
-    .one-block
-      .logo
-        .for-flex
-          img.img-responsive(src='img/logo_white.svg', alt='')
-      ul
-        li
-          | Auction ID
-          span 000001
-        li
-          | Closing Date
-          span.green 09/06/2018
-        li
-          | # of Investors
-          span 23
-        li
-          | Total Collected
-          span.blue 200,000$
-      // или ссылкой или спаном можно
-      span.butt-start START
-
+    .blocks.auctions-page
+        .flex-arrow
+            h6
+                | Auctions
+                span.arrow
+        p.text-list Live Auction List
+        .one-block.blue-border
+            ul
+                li
+                    | Status
+                    span.purple Draft
+                li
+                    | Auction ID
+                    span 000001
+                li
+                    | Closing Date
+                    span.red 09/06/2018
+                li
+                    | # of Investors
+                    span 23
+                li
+                    | Total Collected
+                    span.blue 200,000$
+            p.waiting Waiting for 01 / 1000 DIAMs to receive
+            p.eth-adr
+                | Ethereum address
+                span 0xe7fe58aa32aFc3b049e8301fd2973136Fa39D35a
+        .one-block.purple-border
+            .logo
+                .for-flex
+                    img.img-responsive(src='img/logo_white.svg', alt='')
+            ul
+                li
+                    | Auction ID
+                    span 000001
+                li
+                    | Closing Date
+                    span.red 09/06/2018
+                li
+                    | # of Investors
+                    span 23
+                li
+                    | Total Collected
+                    span.blue 200,000$
+            // или ссылкой или спаном можно
+            span.butt-start START

@@ -26,6 +26,11 @@ router.get('/spv-view-auctions', function(req, res, next) {
     res.render('spv-view-auctions', { title: 'DIAMCO' });
 });
 
+/* GET SPV page - Ready to launch state. */
+router.get('/spv-ready-to-launch', function(req, res, next) {
+  res.render('spv-ready-to-launch', { title: 'DIAMCO' });
+});
+
 /* GET Investor page. */
 router.get('/investor', function(req, res, next) {
     res.render('investor', { title: 'DIAMCO' });
