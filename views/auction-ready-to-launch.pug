@@ -25,7 +25,7 @@ block content
                     | Total Collected
                     span.blue 200,000$
             p.waiting.d-green 1000 / 1000 DIAMs received
-            span.butt-start LAUNCH
+            span.butt-start(data-toggle="modal" data-target="#modal-1") LAUNCH
         .one-block.purple-border
             .logo
                 .for-flex
@@ -45,3 +45,14 @@ block content
                     span.blue 200,000$
             // или ссылкой или спаном можно
             span.butt-start START
+
+block modal
+    #modal-1.modal.modal-sec
+        .modal-dialog
+            .modal-contant
+                .modal-body
+                    .logo
+                        .for-flex
+                            img.img-responsive(src='img/logo_white.svg', alt='')
+                    p.launched LAUNCHED!
+                    button(data-dismiss='modal') Continue
