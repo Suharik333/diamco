@@ -43,6 +43,16 @@ router.get('/auction-approval-received', function(req, res, next) {
   res.render('auction-approval-received', { title: 'DIAMCO' });
 });
 
+/* GET SPV page - Ready to launch state. */
+router.get('/auction-alcoins-transferred', function(req, res, next) {
+  res.render('auction-alcoins-transferred', { title: 'DIAMCO' });
+});
+
+/* GET SPV page - Ready to launch state. */
+router.get('/wallet', function(req, res, next) {
+  res.render('wallet', { title: 'DIAMCO' });
+});
+
 /* GET Investor page. */
 router.get('/investor', function(req, res, next) {
     res.render('investor', { title: 'DIAMCO' });

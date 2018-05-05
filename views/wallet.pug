@@ -1,0 +1,25 @@
+extends layout
+
+block content
+    .avatar-wrapp
+        // картинку поставите свою
+        .image(style='background-image: url(img/diamond.svg)')
+        p.name John Rottger
+        p.s-name My Wallet
+    .blocks.auctions-page.less-padd
+        .one-block
+            .profile-block-style
+                .count
+                    .logo
+                        .for-flex
+                            img.img-responsive(src='img/logo_white.svg', alt='')
+                    p
+                        | 2.000
+                        span AL’COINs
+                p.view View ID
+    .my-eth
+        p.key 33U3KSZ4Ev32MAMydcajChpQbU43
+        p.s-t My Etherium
+    .buttons-wr
+        a.butt-style-1(href='#') Withdraw
+        a.butt-style-1.blue(href='#') Deposit
