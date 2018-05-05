@@ -18,7 +18,7 @@ router.get('/investor', function(req, res, next) {
 
 /* GET AWDC page. */
 router.get('/awdc', function(req, res, next) {
-    res.render('index', { title: 'DIAMCO' });
+    res.render('awdc', { title: 'DIAMCO' });
 });
 
 module.exports = router;

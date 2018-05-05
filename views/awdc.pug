@@ -1,0 +1,24 @@
+extends layout
+
+
+block content
+    script.
+        function issueDiamond(id) {
+          console.log(id)
+          console.log(document.getElementById("button_"+id))
+          document.getElementById("button_"+id).innerHTML="DIAMONDS ISSUED"
+          document.getElementById("button_"+id).disabled=true
+          console.log(document.getElementById("status_"+id))
+          document.getElementById("status_"+id).innerHTML="DIAMONDS ISSUED"
+        }
+
+    - var diamonds = {'d1': 0, 'd2': 1, 'd3': 0}
+
+    table
+        each id in Object.keys(diamonds)
+            tr
+                th=id
+                th(id="status_"+id)=(diamonds[id] ? 'DIAMONDS ISSUED' : 'DIAMONDS PRODUCED')
+                th
+                    button(id="button_"+id, disabled=(diamonds[id] === 1), onclick="issueDiamond('"+id+"')")
+                        =(diamonds[id] ? 'DIAMONDS ISSUED' : 'APPROVE RECEIVAL')
