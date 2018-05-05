@@ -1,11 +1,24 @@
 extends layout
 
-block append head
-  script(src='/javascripts/spv.js')
-
 block content
-  h1= title
-  p is blockchain platform/ecosystem
-
-  button#create-auction Create auction
-  button#view-auctions View auctions
+    section.main-contant
+        .fixed-menu
+            .ham-menu
+                .line
+                .line
+                .line
+            h3.action-header SPV
+        .blocks
+            .one-block.diagram-block
+                p.price-SPV
+                    span $
+                    |  5,670.05
+                p.diam-text-SPV DIAM
+                p.count-SPV $9.45 (0.18)
+        .fixed-button-wr
+            // или ссылкой или спаном можно
+            a.fixed-button(href='#') Create Auction
+            a.fixed-button.pink-bg(href='#') View Auctions
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js')
+    script(src='js/bootstrap.min.js')
+    script(src='js/scripts.js')
