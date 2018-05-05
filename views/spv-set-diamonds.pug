@@ -1,12 +1,86 @@
 extends layout
 
-block append head
-  script(src='/javascripts/spv-set-diamonds.js')
-
 block content
-  h1= title
-  p Here are we going set number of diamonds
-
-
-  button#set-number-of-diamonds Continue with 100 diamonds
-
+    .date-line.diamond-line
+        // при скролле добавляется класс active
+        .one-date-wr
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 100
+                    br
+                    | Diamonds
+            .right-side
+                span 100.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+        .one-date-wr
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 90
+                    br
+                    | Diamonds
+            .right-side
+                span 90.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+        .one-date-wr
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 80
+                    br
+                    | Diamonds
+            .right-side
+                span 80.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+        .one-date-wr.active
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 80
+                    br
+                    | Diamonds
+            .right-side
+                span 70.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+        .one-date-wr
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 60
+                    br
+                    | Diamonds
+            .right-side
+                span 60.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+        .one-date-wr
+            .left-side
+                img.img-responsive(src='img/diamond.svg')
+                p.day-count
+                    | 50
+                    br
+                    | Diamonds
+            .right-side
+                span 50.00
+                .b-l
+                .s-l
+                .s-l
+                .s-l
+    .fixed-button-wr
+        // или ссылкой или спаном можно
+        a.fixed-button(href='#') Continue with 80 Diamonds
