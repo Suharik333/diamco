@@ -13,7 +13,7 @@ router.get('/spv', function(req, res, next) {
 
 /* GET Investor page. */
 router.get('/investor', function(req, res, next) {
-    res.render('index', { title: 'DIAMCO' });
+    res.render('investor', { title: 'DIAMCO' });
 });
 
 /* GET AWDC page. */
