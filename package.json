@@ -1,0 +1,22 @@
+{
+  "name": "diamco",
+  "version": "1.0.0",
+  "description": "Blockhain platform for diamond industry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suharik333/diamco.git"
+  },
+  "keywords": [
+    "hack4diamond3"
+  ],
+  "author": "innosoft LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suharik333/diamco/issues"
+  },
+  "homepage": "https://github.com/Suharik333/diamco#readme"
+}
