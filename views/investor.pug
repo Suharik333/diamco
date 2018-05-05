@@ -1,10 +1,48 @@
 extends layout
 
-block append head
-    script(src='/javascripts/investor.js')
-
 block content
-    include partial/auction-table
-    div
-        input#invest-amount(placeholder='$')
-        button#buy-diamonds Buy Diamonds
+    .blocks.auctions-page
+        .flex-arrow
+            h6
+                | Auctions
+                span.arrow
+        p.text-list Live Auction List
+        .one-block
+            .logo
+                .for-flex
+                    img.img-responsive(src='img/logo_white.svg', alt='')
+            ul
+                li
+                    | Auction ID
+                    span 000001
+                li
+                    | Closing Date
+                    span.green 09/06/2018
+                li
+                    | # of Investors
+                    span 23
+                li
+                    | Total Collected
+                    span.blue 200,000$
+            // или ссылкой или спаном можно
+            span.butt-start START
+        .one-block
+            .logo
+                .for-flex
+                    img.img-responsive(src='img/logo_white.svg', alt='')
+            ul
+                li
+                    | Auction ID
+                    span 000001
+                li
+                    | Closing Date
+                    span.green 09/06/2018
+                li
+                    | # of Investors
+                    span 23
+                li
+                    | Total Collected
+                    span.blue 200,000$
+            // или ссылкой или спаном можно
+            span.butt-start START
+
