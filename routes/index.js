@@ -8,17 +8,17 @@ router.get('/', function(req, res, next) {
 
 /* GET SPV page. */
 router.get('/spv', function(req, res, next) {
-    res.render('spv', { title: 'DIAMCO', res: res });
+    res.render('spv', { title: 'Create Auction', res: res });
 });
 
 /* GET SPV page. */
 router.get('/spv-set-diamonds', function(req, res, next) {
-    res.render('spv-set-diamonds', { title: 'DIAMCO' });
+    res.render('spv-set-diamonds', { title: 'Create Auction' });
 });
 
 /* GET SPV page. */
 router.get('/spv-set-days', function(req, res, next) {
-    res.render('spv-set-days', { title: 'DIAMCO' });
+    res.render('spv-set-days', { title: 'Create Auction' });
 });
 
 /* GET SPV page. */
