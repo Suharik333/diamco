@@ -63,4 +63,9 @@ router.get('/awdc', function(req, res, next) {
     res.render('awdc', { title: 'DIAMCO' });
 });
 
+/* GET Smart contracts page. */
+router.get('/smart-contracts', function(req, res, next) {
+    res.render('smart-contracts', { title: 'DIAMCO' });
+});
+
 module.exports = router;
