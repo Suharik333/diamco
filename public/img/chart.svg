@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 356.229 232.403">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.252;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #21ce99;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #21ce99;
+      }
+
+      .cls-3 {
+        font-size: 17px;
+        font-family: SegoeUI, Segoe UI;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.121" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#21ce99"/>
+      <stop offset="1" stop-color="#21ce99" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Graph_-_Green_in_card_" data-name="Graph - Green (in card)" transform="translate(-9.388 -382.597)">
+    <path id="Path_71" data-name="Path 71" class="cls-1" d="M0,26.7,10.28,16.27,20.3,15.958,30.972,0,41.026,6.018,52.01,8.711,62.077.477l10.6,19.14L93.608,6.349l10.569,10.627,10.5,31.5,10.325-23.982,20.658,14.059,10.881-8.642,10.229,1.162,10.538-4.213,10.555,55.389,10.037,6.812,10.461,4.408,10.912-13.647L229.353,84.9l21.294-21.546L260.685,56.7l10.966,6.655,9.749-3.083,10.727,2.813h10.815l10.214-16.1,10.311-29.67L337.254,56.7l17.894-14.448L355,189.073H0Z" transform="translate(10 384.88)"/>
+    <path id="Path_70" data-name="Path 70" class="cls-2" d="M329.622,5.61,340.074-5.7h9.963L360.49-21.648l10.452,6.061,10.452,2.4,10.452-8.462L402.3-2.252l10.452-6.1L423.2-15.588,433.653-4.707l10.452,31.836L454.557,2.477l10.452,7.059,10.452,7.843,10.452-9.5,10.452,1.659,10.452-4.841L517.269,60.65l10.452,6.6,10.452,4.944,10.452-14.761L559.077,63.4l10.452-11.358,10.452-10.533L590.432,34.7l10.452,6.808,10.452-2.946,10.452,2.946H632.24l10.452-16.221L653.144-4.707,666.18,34.7l8.66-6.1,9.66-7.562" transform="translate(-319.5 405.781)"/>
+    <g id="Group_207" data-name="Group 207" transform="translate(11 77)">
+      <text id="_9.45_0.18_" data-name="$9.45 (0.18)" class="cls-3" transform="translate(138 534)"><tspan x="0" y="0">$9.45 (0.18)</tspan></text>
+      <g id="Filled_Icons" transform="translate(123 516.454)">
+        <g id="Group_207-2" data-name="Group 207">
+          <path id="Path_128" data-name="Path 128" class="cls-4" d="M20,10a9,9,0,1,0,9,9A9,9,0,0,0,20,10Zm3.462,8.308a.693.693,0,0,1-.979,0l-1.79-1.79v6.636a.692.692,0,0,1-1.385,0V16.517l-1.79,1.79a.692.692,0,0,1-.979-.979l2.971-2.973a.693.693,0,0,1,.979,0l2.973,2.973A.693.693,0,0,1,23.462,18.308Z" transform="translate(-21.454 -7.454)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
